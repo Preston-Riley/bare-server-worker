@@ -1,6 +1,6 @@
 import KVAdapter from './KVAdapter.js';
 import { cleanupDatabase } from './Meta.js';
-import createBareServer from './createServer.js';
+import { createBareServer } from '@tomphttp/bare-server-node';
 
 const kvDB = new KVAdapter(BARE);
 
